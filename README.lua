@@ -1,0 +1,14 @@
+--Notice!!! Slap battles uses LocalScript for running Actions, This still over testing. I created this repo for make loadstrings and creating localscripts for slap battles. Prob will NOT WORK!!!
+--A Letter for Adminstrators (and rudy ofc), This is a thing i discorved, and inspired by a exploiter from this video: https://www.youtube.com/watch?v=Lj6BbHwpIpo . and its good warning because for patching the issue of the game, if tencelll did patch, thanks him for patching in near of future...
+-- I am just a regular exploiter
+-- Spoiler alert: For doing this you need to replace the Localscript on your glove (e.g. God's hand or Error) and you need reach the counting.
+--So, do that:
+-- game.Players.LocalPlayer.Backpack.YOUGLOVE.LocalScript:Clone(Name, "Cloned")
+-- game.Players.LocalPlayer.Backpack.YOUGLOVE.Cloned:Parent("game.Workspace")
+-- game.Workspace:InstanceNew("Tool")
+-- game.Workspace.Cloned:Parent("Tool")
+-- game.Workspace:InstanceNew("Part")
+-- game.Workspace.Part:Parent("Tool")
+-- game.Workspace.Tool.Part:Name("Handle")
+-- game.Workspace.Tool:Parent(game.Players.LocalPlayer.Backpack)
+-- This should work.
